@@ -1,0 +1,47 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#form-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+input {
+    width: 100%;
+    padding: 8px 12px;
+    border-radius: 4px;
+    border: 1px solid #000000;
+    background-color: #bdb4fb;
+}
+
+#container {
+    width: 500px;
+    margin: 0 auto;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: 28px;
+    border-radius: 4px;
+    background-color: #bdb4fb;
+}
+
+body {
+    display: grid;
+    height: 100vh;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    background-color: #000000;
+}
+
+#btn-cadastrar {
+    margin-top: 100px;
+    background: #c800ff;
+    color: #ffffff;
+    font-weight: bold;
+    align-items: center;
+}
+h1{
+    text-align: center;
+}

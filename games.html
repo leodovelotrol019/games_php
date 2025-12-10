@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadrasto de funcionarios</title>
+    <link rel="stylesheet" href="games.css">
+
+</head>
+
+<body>
+    <div id="container">
+        <h1>Cadrasto de Jogos</h1>
+    
+    
+    <form action="backend/games.php" method="post">
+        <div id="form-grid">
+        <div>
+            <label for="nome">Nome</label>
+            <input name="nome" type="text" id="nome">
+        </div>
+        <div>
+            <label for="publicadora">Publicadora</label>
+            <input name="publicadora" type="text" id="publicadora">
+        </div>
+        <div>
+            <label for="ano">Ano</label>
+            <input type="date" name="ano" id="ano">
+        </div>
+        <div>
+            <label for="genero">Gênero</label>
+            <input type="text" name="genero" id="genero">
+        </div>
+        <div>
+            <label for="plataforma">Plataforma</label>
+            <input type="text" name="plataforma" id="plataforma">
+        </div>
+    </div>
+            <input type="submit" value="Cadastrar" id="btn-cadastrar">
+    
+    </form>
+    </div>
+</body>
+
+</html>
