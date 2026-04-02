@@ -38,6 +38,7 @@ $resultados = $stmt->fetchAll(PDO::FETCH_ASSOC);
             <th>Ano</th>
             <th>Gênero</th>
             <th>Plataforma</th>
+            
         </tr>
 
         <?php if (count($resultados) > 0): ?>
@@ -50,6 +51,7 @@ $resultados = $stmt->fetchAll(PDO::FETCH_ASSOC);
                     <td><?= $linha["ano"] ?></td>
                     <td><?= $linha["genero"] ?></td>
                     <td><?= $linha["plataforma"] ?></td>
+                    
                 </tr>
             <?php endforeach; ?>
 
